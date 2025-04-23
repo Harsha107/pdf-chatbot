@@ -22,7 +22,7 @@ Follow the steps below to get started with the project.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-chatbot.git
+git clone https://github.com/Harsha107/pdf-chatbot.git
 cd pdf-chatbot
 ```
 
@@ -55,10 +55,13 @@ pip install -r requirements.txt
 Make sure `requirements.txt` includes necessary libraries like:
 
 ```txt
-streamlit
-PyPDF2
 langchain
-openai
+langchain-community
+pypdf
+faiss-cpu
+sentence-transformers
+openllama
+streamlit
 ```
 
 ---
