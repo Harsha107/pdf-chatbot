@@ -92,7 +92,9 @@ Make sure your virtual environment is still active.
 
 ### 7. Run the Chatbot
 
-You can choose to run the chatbot in:
+Before running the chatbot, ensure that you have replaced "your_pdf.pdf" with the correct path of the desired pdf in all the three .py files.
+
+Then you can choose to run the chatbot in:
 
 #### Option A: Streamlit App
 

@@ -5,7 +5,7 @@ from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOllama
 from langchain.chains import ConversationalRetrievalChain
 
-def build_qa_chain(pdf_path="2021A7PS0203U.pdf"):
+def build_qa_chain(pdf_path="your_pdf.pdf"):
     loader = PyPDFLoader(pdf_path)
     documents = loader.load()[1:]
 

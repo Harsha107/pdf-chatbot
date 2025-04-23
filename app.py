@@ -4,7 +4,7 @@ from chatbot_core import build_qa_chain
 st.set_page_config(page_title="PDF Chatbot", layout="wide")
 st.title("Chat with your PDF")
 
-qa_chain = build_qa_chain("2021A7PS0203U.pdf")
+qa_chain = build_qa_chain("your_pdf.pdf")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []

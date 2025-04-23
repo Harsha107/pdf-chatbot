@@ -1,6 +1,6 @@
 from chatbot_core import build_qa_chain
 
-qa_chain = build_qa_chain("2021A7PS0203U.pdf")
+qa_chain = build_qa_chain("your_pdf.pdf")
 chat_history = []
 
 print("PDF-Chatbot started! Enter 'exit' to quit.")
